@@ -1,10 +1,10 @@
 
-import first from 'C:/Users/Ivan/Documents/JS/projectNode1.1/project/src/img/photo_2024-11-26_20-44-37.png';
-import second from 'C:/Users/Ivan/Documents/JS/projectNode1.1/project/src/img/photo_2024-11-26_20-44-55.png';
-import third from 'C:/Users/Ivan/Documents/JS/projectNode1.1/project/src/img/photo_2024-11-26_20-44-32.png';
-import fourth from 'C:/Users/Ivan/Documents/JS/projectNode1.1/project/src/img/photo_2024-11-26_20-44-50.png';
-import teachers from 'C:/Users/Ivan/Documents/JS/projectNode1.1/project/src/img/викладачі.png';
-import r from 'C:/Users/Ivan/Documents/JS/projectNode1.1/project/src/img/photo_2024-11-26_20-45-03.png';
+import first from './img/photo_2024-11-26_20-44-37.png';
+import second from './img/photo_2024-11-26_20-44-55.png';
+import third from './img/photo_2024-11-26_20-44-32.png';
+import fourth from './img/photo_2024-11-26_20-44-50.png';
+import teachers from './img/викладачі.png';
+import r from './img/photo_2024-11-26_20-45-03.png';
 
 const About = () => {
     return (

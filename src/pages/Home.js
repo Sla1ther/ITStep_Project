@@ -1,11 +1,9 @@
-import group from 'C:/Users/Ivan/Documents/JS/projectNode1.1/project/src/img/Group 48 1.png';
-import q from 'C:/Users/Ivan/Documents/JS/projectNode1.1/project/src/img/q.png';
-import starting from 'C:/Users/Ivan/Documents/JS/projectNode1.1/project/src/img/image(3).png';
-import middle from 'C:/Users/Ivan/Documents/JS/projectNode1.1/project/src/img/word-image-23.png';
-import back1 from 'C:/Users/Ivan/Documents/JS/projectNode1.1/project/src/img/Rectangle 20.png';
-import check from 'C:/Users/Ivan/Documents/JS/projectNode1.1/project/src/img/marketeq_check-mark-square-2.png';
-import mystat from 'C:/Users/Ivan/Documents/JS/projectNode1.1/project/src/img/mystat.png';
-import back2 from 'C:/Users/Ivan/Documents/JS/projectNode1.1/project/src/img/Rectangle 12.png';
+import group from './img/Group 48 1.png';
+import q from './img/q.png';
+import starting from './img/image(3).png';
+import middle from './img/word-image-23.png';
+import check from './img/marketeq_check-mark-square-2.png';
+import mystat from './img/mystat.png';
 const Home = () => {
     return (
         <main>

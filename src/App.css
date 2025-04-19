@@ -108,7 +108,7 @@ footer h2 {
 }
 
 .footer-li {
-  list-style: url('./img/marketeq_maps-location.png');
+  list-style: url('./pages/img/marketeq_maps-location.png');
 }
 
 .footer-img {
@@ -158,7 +158,7 @@ footer h2 {
 }
 
 .choice-sec {
-  background-image: url('./img/Rectangle 20.png');
+  background-image: url('./pages/img/Rectangle 20.png');
   background-size: cover;
   background-position: center;
   padding: 50px 20px;
@@ -226,7 +226,7 @@ footer h2 {
 }
 
 .regist-sec {
-  background-image: url('./img/Rectangle 12.png');
+  background-image: url('./pages/img/Rectangle 12.png');
   height: 500px;
   color: white;
 }
@@ -282,7 +282,7 @@ footer h2 {
 .math-main {
   height: 700px;
   width: 100%;
-  background-image: url('./img/1234.png');
+  background-image: url('./pages/img/1234.png');
   background-size: cover;
 }
 
@@ -303,7 +303,7 @@ footer h2 {
 .about-main {
   height: 700px;
   width: 100%;
-  background-image: url('./img/photo_2024-11-26_20-44-53\ \(1\).png');
+  background-image: url('./pages/img/photo_2024-11-26_20-44-53\ \(1\).png');
   background-size: cover;
 }
 

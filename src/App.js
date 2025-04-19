@@ -1,9 +1,8 @@
 // import logo from './logo.svg';
-import q from './img/q.png';
-import instagram from './img/inst 1.png';
-import youtube from './img/youtube 1.png';
-import twitter from './img/twitter 1.png';
-import locat from './img/marketeq_maps-location.png';
+import q from './pages/img/q.png';
+import instagram from './pages/img/inst 1.png';
+import youtube from './pages/img/youtube 1.png';
+import twitter from './pages/img/twitter 1.png';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import React, { useEffect, useState } from 'react';
