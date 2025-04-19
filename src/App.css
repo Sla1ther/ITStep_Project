@@ -1,0 +1,491 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header {
+  background-color: #3576C6;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  padding: 50px;
+
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.join-link {
+
+  color: #26C7EA;
+
+  text-decoration: none;
+
+
+}
+
+.join-btn {
+
+  background-color: #0B0E66;
+  align-self: center;
+  height: 45px;
+  width: 135px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.img1 {
+  height: 728px;
+  width: 100%;
+}
+
+footer {
+  background-color: #3576C6;
+  display: flex;
+  justify-content: space-around;
+  text-align: start;
+
+
+}
+
+footer h2 {
+  color: white;
+}
+
+.footer_title {
+  color: #26C7EA;
+}
+
+.footer-sec {
+
+  margin-left: -40px;
+}
+
+.footer-li {
+  list-style: url('./img/marketeq_maps-location.png');
+}
+
+.footer-img {
+  height: 50px;
+
+}
+
+.q {
+  height: 250px;
+  padding: 15px;
+}
+
+.social {
+  padding-top: 30px;
+  margin-right: 25px;
+}
+
+.schools-sec .title {
+  color: #0B0E66;
+}
+
+.schools-sec {}
+
+.schools {
+  display: flex;
+  justify-content: space-around;
+}
+
+.school {}
+
+.school-upper {
+  padding-top: 5px;
+  background-color: #C8EAFF;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding-bottom: 10px;
+}
+
+.school .school-img {}
+
+.school .text {
+  color: #0B0E66;
+  font-weight: 500;
+  text-align: start;
+  margin-left: 50px;
+
+}
+
+.choice-sec {
+  background-image: url('./img/Rectangle 20.png');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.choice-sec .title {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.choice-sec .reason {
+  background-color: white;
+  opacity: 70%;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 300px;
+  height: 200px;
+}
+
+.choice-sec .reasons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  margin-left: 75px;
+}
+
+.reason .title {
+  color: #0B0E66;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.choice-sec .reason p {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.tablet-section .tablet-img {
+  height: 300px;
+  width: 593px;
+  padding: 100px;
+}
+
+.tablet-section .tablet {
+  display: flex;
+  justify-content: center;
+}
+
+.tablet-section .advantages {}
+
+.tablet-section .advantage {
+  display: flex;
+  padding: 30px;
+}
+
+.tablet-section .advantage .check {
+  height: 50px;
+}
+
+.regist-sec {
+  background-image: url('./img/Rectangle 12.png');
+  height: 500px;
+  color: white;
+}
+
+.name {
+  border-radius: 10px;
+  height: 50px;
+  width: 300px;
+  border-width: 0;
+  margin: 10px;
+}
+
+.phone {
+  border-radius: 10px;
+  height: 50px;
+  width: 300px;
+  border-width: 0;
+  margin: 10px;
+}
+
+.registr {
+  background-color: #0B0E66;
+  color: #26C7EA;
+  text-align: center;
+  border-radius: 10px;
+  border-width: 0;
+  height: 50px;
+  width: 200px;
+}
+
+.regist-sec .text {
+  padding: 50px;
+}
+
+.about-back1 {
+  width: 100%;
+}
+
+.mathjs {
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: white;
+  font-size: x-large;
+  font-weight: bolder;
+  padding: 50px;
+  background-color: #3576C6;
+  width: 500px;
+  justify-self: center;
+  position: relative;
+  top: 450px;
+}
+
+.math-main {
+  height: 700px;
+  width: 100%;
+  background-image: url('./img/1234.png');
+  background-size: cover;
+}
+
+.about-title {
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: white;
+  font-size: xx-large;
+  font-weight: bolder;
+  background-color: #3576C6;
+  padding: 30px;
+  width: 200px;
+  justify-self: center;
+  position: relative;
+  top: 450px;
+}
+
+.about-main {
+  height: 700px;
+  width: 100%;
+  background-image: url('./img/photo_2024-11-26_20-44-53\ \(1\).png');
+  background-size: cover;
+}
+
+.relax-sec {}
+
+.relax-title {}
+
+.relax-p {
+  text-align: start;
+  margin-left: 400px;
+}
+
+.relax-imgs {}
+
+.relax-img {
+  margin: 50px;
+  width: 500px;
+  height: 300px;
+  margin-bottom: 1px;
+}
+
+.math-arifmporgr-calc,
+.math-geomprogr-calc {
+  max-width: 100%;
+  margin: 40px auto;
+  padding: 40px;
+  background: linear-gradient(145deg, #3576C6, #26C7EA);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.math-arifmporgr-inp,
+.math-geomporgr-inp {
+  margin-bottom: 20px;
+}
+
+.math-arifmporgr-inp label,
+.math-geomporgr-inp label {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+.math-arifmporgr-inp input,
+.math-geomporgr-inp input {
+  width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.math-arifmporgr-calc h1,
+.math-geomprogr-calc h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.math-arifmporgr-form button,
+.math-geomprogr-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3b3e8f;
+  color: #126d81;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+}
+.math-arifmporgr-form button:hover,
+.math-geomprogr-form button:hover {
+  background-color: #26C7EA;
+  color: #0B0E66;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.math-arifmporgr-res,
+.math-geomprogr-res {
+  padding: 20px;
+  margin-top: 20px;
+  text-align: start;
+}
+
+.math-arifmporgr-res h2,
+.math-geomprogr-res h2 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.math-arifmporgr-res p,
+.math-geomprogr-res p {
+  color: white;
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.progr-game {
+  max-width: 1500px;
+  height: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(45deg, 
+    #0B0E66 0%,
+    #1a237e 15%,
+    #26C7EA 45%,
+    #3576C6 30%,
+    
+    #7B2CBF 60%,
+    #571089 75%,
+    #0B0E66 100%
+  );
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+  
+}
+.progr-game h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+.progr-game p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.progr-game-btn {
+  background-color: #0B0E66;
+  margin-left: 10px;
+  color: #26C7EA;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.progr-game-btn:hover {
+  background-color: #26C7EA;
+  color: #0B0E66;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.question {
+  margin: 20px 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.option-btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.option-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+.progr-game-quest{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
